@@ -8,9 +8,7 @@ To run this, install the dependencies listed in the environment file dali.yml. T
 
 conda env create --name data_env -f dali.yml
 
-conda env create -f dali.yml
-
-conda activate dali
+conda activate data_env
 
 This approach is an end-to-end process that processes images, identifies barnacles, allows for editing barnacle images, and uses the output to do some analysis. I factored most classes and functions out into barnacle.py. Other folders are used to save images and outputs.
 
