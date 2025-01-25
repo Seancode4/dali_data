@@ -4,7 +4,7 @@ First, I did a non ML method using OpenCV and hough circle detention. This was m
 
 Hough Circle Detection:
 Location: Jupyter Notebook file sean_data_challenge.ipynb. 
-To run this, install the dependencies listed in the environment file dali.yml. This environment can be recreated using conda. Install conda, download the dali.yml file to downloads folder, then in terminal use the following commands. (NOTE: These instructions are for MacOS. May be different on Windows. Ensure Terminal has Full Disk Access -> System Preference->Privacy and Security->Full Desk Access)
+To run this, install the dependencies listed in the environment file dali.yml. This environment can be recreated using conda. Install conda, download the dali.yml file to downloads folder, then in terminal use the following commands. NOTE: These instructions are for MacOS. May be different on Windows. Ensure Terminal has Full Disk Access (System Preference->Privacy and Security->Full Desk Access).
 
 conda env create --name data_env -f Downloads/dali.yml
 
